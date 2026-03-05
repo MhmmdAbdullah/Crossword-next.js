@@ -1,6 +1,6 @@
-# 🧩 Crossword Puzzle Game
+# 🧩 Modern Crossword Game
 
-A modern, full-stack web application that brings the classic crossword experience to the digital age. Built with high performance and smooth user experience in mind.
+A high-performance, full-stack crossword puzzle application. Experience seamless gameplay with real-time validation and a sleek user interface.
 
 ---
 
@@ -10,38 +10,26 @@ This repository features a crossword puzzle game built with **Next.js** for the 
 
 ## 🚀 Key Features
 
-* **Interactive UI:** A responsive and sleek crossword grid built with **Tailwind CSS**.
-* **Real-time Validation:** Instantly check if your answers are correct through a dedicated **Node.js API**.
-* **Dynamic Puzzle Generation:** Fetches puzzle data and clues dynamically from the centralized backend.
-* **Smart State Management:** Efficiently handles user progress, focus transitions, and input history.
-* **Performance Optimized:** Utilizing Next.js rendering capabilities for fast loading and SEO friendliness.
+* **Interactive UI:** A responsive and sleek crossword grid built with **Next.js** and **Tailwind CSS**.
+* **Real-time Validation:** Instantly check if your answers are correct through the **Node.js API**.
+* **Dynamic Puzzle Generation:** Fetches puzzle data and clues dynamically from a centralized backend.
+* **Smart State Management:** Efficiently handles user progress, cell transitions, and input history.
+* **Performance Optimized:** Fast loading and SEO-friendly using Next.js rendering capabilities.
 
 ## 🛠 Tech Stack
 
-### Frontend
-* **Framework:** Next.js (React)
-* **Styling:** Tailwind CSS
-* **State Management:** React Hooks / Context API
-
-### Backend
-* **Environment:** Node.js
-* **Framework:** Express.js
-* **Data Handling:** JSON-based puzzle structures (REST API)
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | Next.js, Tailwind CSS, Lucide Icons |
+| **Backend** | Node.js, Express.js |
+| **Package Manager** | **pnpm** (Fast & Disk-efficient) |
+| **API** | RESTful Architecture |
 
 ---
 
-## 🏗 System Architecture
+## ⚙️ Getting Started
 
-The project follows a decoupled **Client-Server architecture**:
-
-1.  **Frontend (Client):** Responsible for the grid rendering logic, keyboard navigation, and managing the local game state.
-2.  **Backend (Server):** Acts as the "source of truth." It validates user inputs against the answer key and serves the puzzle data.
-
----
-
-## 🛠 Installation & Setup
-
-Get the project up and running locally in just a few steps:
+Follow these steps to get the project up and running locally.
 
 ### 1. Clone the Repository
 ```bash
